@@ -1,4 +1,4 @@
-def get_sum(a, b):
+def get_sum(a: int, b: int) -> int:
     return sum(range(min(a, b), max(a, b) + 1))
 
 
