@@ -1,4 +1,4 @@
-def remove_every_other(my_list):
+def remove_every_other(my_list: list) -> list:
     return my_list[::2]
 
 
