@@ -1,4 +1,4 @@
-def digitize(n):
+def digitize(n: int) -> list[int]:
     return [int(a) for a in str(n)][::-1]
 
 
