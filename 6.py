@@ -1,5 +1,5 @@
-def open_or_senior(data):
-    new_list = []
+def open_or_senior(data: list[tuple[int, int]]) -> list[str]:
+    new_list: list = []
     for a, b in data:
         if a > 55 and b > 7:
             new_list.append("Senior")
