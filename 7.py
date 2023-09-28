@@ -1,4 +1,4 @@
-def square_sum(numbers):
+def square_sum(numbers: list) -> int:
     return sum([i ** 2 for i in numbers])
 
 
