@@ -1,4 +1,4 @@
-def find_digit(arr):
+def find_digit(arr: list) -> list:
     arr = sorted(arr)
     for i in range(len(arr) - 1):
         if arr[i] != arr[i + 1]:
